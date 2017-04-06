@@ -1,0 +1,33 @@
+{
+  "name": "bookmarksapi",
+  "version": "0.7.1",
+  "description": "RESTful bookmarksAPI",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specifies\\\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/janno2233/bmrksAPI.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "bookmarks"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janno2233/bmrksAPI/issues"
+  },
+  "homepage": "https://github.com/janno2233/bmrksAPI",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.3"
+  }
+}
