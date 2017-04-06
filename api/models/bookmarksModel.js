@@ -4,7 +4,7 @@ var Schema = mongoose.Schema;
 
 
 var BookmarkSchema = new Schema({
-  name: {
+  Url: {
     type: String,
     Required: 'Lisa artikli nimi'
   },
